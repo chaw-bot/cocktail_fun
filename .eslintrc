@@ -1,0 +1,77 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "extends": [
+    "airbnb",
+    "eslint:recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:react/jsx-runtime",
+    "airbnb/hooks",
+    "prettier"
+  ],
+  "settings": {
+    "import/extensions": [
+      ".js",
+      ".jsx",
+      "tsx"
+    ],
+    "import/resolver": {
+      "node": {
+        "paths": [
+          "src"
+        ],
+        "extensions": [
+          ".js",
+          ".jsx",
+          "tsx",
+          "ts"
+        ]
+      }
+    }
+  },
+  "rules": {
+    "function-paren-newline": "off",
+    "no-useless-escape": "off",
+    "no-confusing-arrow": "off",
+    "operator-linebreak": "off",
+    "no-underscore-dangle": "off",
+    "object-curly-newline": "off",
+    "implicit-arrow-linebreak": "off",
+    "arrow-body-style": "off",
+    "comma-dangle": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "import/no-unresolved": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "react/jsx-curly-newline": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/control-has-associated-label": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "no-console": "off", // turn this rule off for debugging
+    "no-param-reassign": "off",
+    "no-plusplus": "off",
+    "default-param-last": "off",
+    "react/prop-types": "off",
+    "no-use-before-define": "off",
+    "import/extensions": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/forbid-prop-types": "off",
+    "react/jsx-wrap-multilines": "off",
+    "react/jsx-filename-extension": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/require-default-props": "off",
+    "react/function-component-definition": "off",
+    "react/no-unstable-nested-components": "off",
+    "@typescript-eslint/ban-ts-comment": "off",
+    "react/jsx-no-useless-fragment": "off",
+    "react/jsx-no-constructed-context-values": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off"
+  }
+}
